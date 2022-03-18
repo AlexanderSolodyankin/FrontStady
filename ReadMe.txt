@@ -6,4 +6,6 @@
  
 Цель урока: Определить навыки и знания в верстке
 
-Задание по уроку: сверстать <a href="https://www.figma.com/file/cJUUsBYF7WeDwS0ZWqnvz7/Align?node-id=0%3A1"> этот макет <a> на скорую руку, без лишних выебонов.
+Задание по уроку: сверстать макет на скорую руку, без лишних выебонов.
+
+Ссылка на текущий макет: https://www.figma.com/file/cJUUsBYF7WeDwS0ZWqnvz7/Align?node-id=0%3A1
