@@ -1,0 +1,63 @@
+#banner{
+    background-color: darkkhaki;
+    text-align: center;
+    padding: 10px;
+
+}
+#head{
+    background-color: rgb(0, 77, 54);
+    padding: 75px;
+}
+#gerb{
+    width: 100px;
+}
+a{
+    color:red;
+    text-decoration: none;
+}
+#headTB1{
+    color:red;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+#headTB2{
+    color:red;
+    position: absolute;
+    margin-left: 75px;
+}
+#headTB3{
+    position: absolute;
+    margin-left: 250px;
+}
+#headTB4{
+    position: absolute;
+    margin-left: 400px;
+}
+#headTB5{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -30px;
+}
+
+#bytton1{
+    padding: 15px;
+}
+#cell1{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+#textCell1{
+   font-size: 75px;
+}
+#cellImg1{
+    width: 230%;
+    position: absolute;
+    margin-left: 0px;
+}
+#cell1button1{
+    margin-left: 50%;
+    padding: 15px;
+}
