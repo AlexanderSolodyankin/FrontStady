@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(119, 119, 118);
+}
+header{
+    background-color: rgb(50, 155, 30);
+    text-align: center;
+}
+.theory{
+    font-size: 30px;
+    margin: auto;
+    background-color:rgb(74, 138, 98);
+    width: 80%;
+    margin-top: 50px;
+}
+.demeg_imeg{
+    background-color:aqua;
+    /* margin-bottom: 40%; */
+    margin-right: 70%;
+    padding: 10%;
+}
+.text_left{
+   margin-left: 70%;
+   margin-top: -20%;
+   margin-bottom: 20%;
+}
+.small_picture{
+    width: 300px;
+}
+.imeg_grey{
+    filter: grayscale(1); /* Черно-белый фильтр для изображения */
+    transition: 1s; /* Время изменения цвета изображения */
+}
+.imeg_grey:hover{
+    filter: grayscale(0); /* Цветное изображение при наведении */
+}
+.examp_hover{
+    width: 90%;
+}
+
+ul {
+    width: 180px; /* Ширина меню */
+    list-style: none; /* Для списка убираем маркеры */
+    margin: 0; /* Нет отступов вокруг */
+    padding: 0; /* Убираем поля вокруг текста */
+    font-family: Arial, sans-serif; /* Рубленый шрифт для текста меню */
+    font-size: 10pt; /* Размер названий в пункте меню */
+   }
+   li ul {
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none; /* Скрываем подменю */
+    margin-left: 165px; /* Сдвигаем подменю вправо */
+    margin-top: -2em; /* Сдвигаем подменю вверх */
+   }
+   li a {
+    display: block; /* Ссылка как блочный элемент */
+    padding: 5px; /* Поля вокруг надписи */
+    text-decoration: none; /* Подчеркивание у ссылок убираем */
+    color: #666; /* Цвет текста */
+    border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+    background-color: #f0f0f0; /* Цвет фона */
+    border-bottom: none; /* Границу снизу не проводим */
+   }
+   li a:hover {
+    color: #ffe; /* Цвет текста активного пункта */
+    background-color: #5488af; /* Цвет фона активного пункта */
+   }
+   li:hover ul { 
+    display: block; /* При выделении пункта курсором мыши отображается подменю */
+   }
+   .brd {
+    border-bottom: 1px solid #ccc; /* Линия снизу */
+   }
+
+.img_button{
+    width: 100px;
+}
+.teg_exampel{
+    color:blue;
+}
